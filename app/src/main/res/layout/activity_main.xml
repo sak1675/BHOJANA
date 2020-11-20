@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F323C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/rubik_bold"
+        android:letterSpacing="0.2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/bhojana"
+        android:textColor="#FFF"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/design"
+        android:layout_width="40dp"
+        android:layout_height="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:contentDescription="@string/design"
+        app:srcCompat="@mipmap/design" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@mipmap/logo" />
+
+    <android.widget.Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:textAllCaps="false"
+        android:background="@drawable/signupbtn"
+        android:layout_marginStart="150dp"
+        android:text="@string/sign_up"
+        android:textSize="20sp"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/signinbtn"
+        android:layout_marginStart="150dp"
+        android:textColor="#D0A559"
+        android:text="@string/sign_in"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/moto"
+        android:textColor="#D0A559"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>
